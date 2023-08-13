@@ -1,0 +1,120 @@
+
+*{
+    direction:ltr;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    font-size: 16px;
+    max-width: 900px;
+    margin: 0px auto;
+}
+a{
+    text-decoration: none;
+}
+header{
+display: flex;
+justify-content:start;
+}
+.btn{
+    order: 2;
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+}
+.btn button{
+    background-color: crimson;
+    border-radius: 5px;
+    padding:5px 10px;
+    color: blanchedalmond;
+    cursor: pointer;
+}
+.head{
+font-size: 2em;
+order: 1;
+
+}
+.head h3{
+    display: inline-block;
+}
+
+main {
+    margin: 30px 0px;
+    display: flex;
+    width: 1000px;
+
+}
+main .news section{
+    display: flex;
+    border-bottom:1px solid #c1c0c0;
+    padding:30px 0px;
+    width: 700px
+
+}
+main section .left{
+    order: 2;
+    margin-right: 5px;
+    
+}
+main .news .left .img img{
+    width: 250px;
+    height: 167px;
+    margin-left: 5px;
+
+
+}
+main .news .right{
+    order: 1;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    
+}
+main .news .right .title a{
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+
+}
+main .news .right .title a:hover{
+    color: red;
+}
+main .news .right .caption{
+    font-size: 1em;
+    color: #606060;
+
+}
+main .news .right .footer{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+   width: 180px;
+    
+
+
+}
+main .news .right .footer .author {
+   padding-bottom:1px;
+   order: 2;
+   color: #646464;
+   font-size: .9em;
+   margin-right: 5px;
+
+}
+.search{
+    padding: 10px;
+    margin-left: 50px;
+    width: 200px;
+}
+.search input {
+    margin: 5px 0px;
+}
+.search button {
+    background-color: aqua;
+    padding: 5px 8px;
+    cursor: pointer;
+    margin-top: 8px;
+    border-radius: 5px;
+}
